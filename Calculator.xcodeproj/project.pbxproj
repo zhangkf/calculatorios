@@ -1,0 +1,280 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4976C795157491A400786536 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4976C794157491A400786536 /* UIKit.framework */; };
+		4976C797157491A400786536 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4976C796157491A400786536 /* Foundation.framework */; };
+		4976C799157491A400786536 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4976C798157491A400786536 /* CoreGraphics.framework */; };
+		4976C79F157491A400786536 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4976C79D157491A400786536 /* InfoPlist.strings */; };
+		4976C7A1157491A400786536 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4976C7A0157491A400786536 /* main.m */; };
+		4976C7A5157491A400786536 /* ZKFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4976C7A4157491A400786536 /* ZKFAppDelegate.m */; };
+		4976C7A8157491A400786536 /* ZKFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4976C7A7157491A400786536 /* ZKFViewController.m */; };
+		4976C7AB157491A400786536 /* ZKFViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4976C7A9157491A400786536 /* ZKFViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4976C790157491A400786536 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4976C794157491A400786536 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4976C796157491A400786536 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4976C798157491A400786536 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4976C79C157491A400786536 /* Calculator-Info.plist */ = {isa = PBXFileReference; path = "Calculator-Info.plist"; sourceTree = "<group>"; };
+		4976C79E157491A400786536 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4976C7A0157491A400786536 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4976C7A2157491A400786536 /* Calculator-Prefix.pch */ = {isa = PBXFileReference; path = "Calculator-Prefix.pch"; sourceTree = "<group>"; };
+		4976C7A3157491A400786536 /* ZKFAppDelegate.h */ = {isa = PBXFileReference; path = ZKFAppDelegate.h; sourceTree = "<group>"; };
+		4976C7A4157491A400786536 /* ZKFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKFAppDelegate.m; sourceTree = "<group>"; };
+		4976C7A6157491A400786536 /* ZKFViewController.h */ = {isa = PBXFileReference; path = ZKFViewController.h; sourceTree = "<group>"; };
+		4976C7A7157491A400786536 /* ZKFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKFViewController.m; sourceTree = "<group>"; };
+		4976C7AA157491A400786536 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ZKFViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4976C78D157491A400786536 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4976C795157491A400786536 /* UIKit.framework in Frameworks */,
+				4976C797157491A400786536 /* Foundation.framework in Frameworks */,
+				4976C799157491A400786536 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4976C785157491A400786536 = {
+			isa = PBXGroup;
+			children = (
+				4976C79A157491A400786536 /* Calculator */,
+				4976C793157491A400786536 /* Frameworks */,
+				4976C791157491A400786536 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4976C791157491A400786536 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4976C790157491A400786536 /* Calculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4976C793157491A400786536 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4976C794157491A400786536 /* UIKit.framework */,
+				4976C796157491A400786536 /* Foundation.framework */,
+				4976C798157491A400786536 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4976C79A157491A400786536 /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				4976C7A3157491A400786536 /* ZKFAppDelegate.h */,
+				4976C7A4157491A400786536 /* ZKFAppDelegate.m */,
+				4976C7A6157491A400786536 /* ZKFViewController.h */,
+				4976C7A7157491A400786536 /* ZKFViewController.m */,
+				4976C7A9157491A400786536 /* ZKFViewController.xib */,
+				4976C79B157491A400786536 /* Supporting Files */,
+			);
+			path = Calculator;
+			sourceTree = "<group>";
+		};
+		4976C79B157491A400786536 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4976C79C157491A400786536 /* Calculator-Info.plist */,
+				4976C79D157491A400786536 /* InfoPlist.strings */,
+				4976C7A0157491A400786536 /* main.m */,
+				4976C7A2157491A400786536 /* Calculator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4976C78F157491A400786536 /* Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4976C7AE157491A400786536 /* Build configuration list for PBXNativeTarget "Calculator" */;
+			buildPhases = (
+				4976C78C157491A400786536 /* Sources */,
+				4976C78D157491A400786536 /* Frameworks */,
+				4976C78E157491A400786536 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Calculator;
+			productName = Calculator;
+			productReference = 4976C790157491A400786536 /* Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4976C787157491A400786536 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZKF;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 4976C78A157491A400786536 /* Build configuration list for PBXProject "Calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4976C785157491A400786536;
+			productRefGroup = 4976C791157491A400786536 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4976C78F157491A400786536 /* Calculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4976C78E157491A400786536 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4976C79F157491A400786536 /* InfoPlist.strings in Resources */,
+				4976C7AB157491A400786536 /* ZKFViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4976C78C157491A400786536 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4976C7A1157491A400786536 /* main.m in Sources */,
+				4976C7A5157491A400786536 /* ZKFAppDelegate.m in Sources */,
+				4976C7A8157491A400786536 /* ZKFViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4976C79D157491A400786536 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4976C79E157491A400786536 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4976C7A9157491A400786536 /* ZKFViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4976C7AA157491A400786536 /* en */,
+			);
+			name = ZKFViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4976C7AC157491A400786536 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4976C7AD157491A400786536 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4976C7AF157491A400786536 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Calculator/Calculator-Prefix.pch";
+				INFOPLIST_FILE = "Calculator/Calculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4976C7B0157491A400786536 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Calculator/Calculator-Prefix.pch";
+				INFOPLIST_FILE = "Calculator/Calculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4976C78A157491A400786536 /* Build configuration list for PBXProject "Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4976C7AC157491A400786536 /* Debug */,
+				4976C7AD157491A400786536 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4976C7AE157491A400786536 /* Build configuration list for PBXNativeTarget "Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4976C7AF157491A400786536 /* Debug */,
+				4976C7B0157491A400786536 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4976C787157491A400786536 /* Project object */;
+}
