@@ -22,13 +22,13 @@
 		4976C794157491A400786536 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4976C796157491A400786536 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4976C798157491A400786536 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		4976C79C157491A400786536 /* Calculator-Info.plist */ = {isa = PBXFileReference; path = "Calculator-Info.plist"; sourceTree = "<group>"; };
+		4976C79C157491A400786536 /* Calculator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Calculator-Info.plist"; sourceTree = "<group>"; };
 		4976C79E157491A400786536 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4976C7A0157491A400786536 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4976C7A2157491A400786536 /* Calculator-Prefix.pch */ = {isa = PBXFileReference; path = "Calculator-Prefix.pch"; sourceTree = "<group>"; };
-		4976C7A3157491A400786536 /* ZKFAppDelegate.h */ = {isa = PBXFileReference; path = ZKFAppDelegate.h; sourceTree = "<group>"; };
+		4976C7A2157491A400786536 /* Calculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Calculator-Prefix.pch"; sourceTree = "<group>"; };
+		4976C7A3157491A400786536 /* ZKFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKFAppDelegate.h; sourceTree = "<group>"; };
 		4976C7A4157491A400786536 /* ZKFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKFAppDelegate.m; sourceTree = "<group>"; };
-		4976C7A6157491A400786536 /* ZKFViewController.h */ = {isa = PBXFileReference; path = ZKFViewController.h; sourceTree = "<group>"; };
+		4976C7A6157491A400786536 /* ZKFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKFViewController.h; sourceTree = "<group>"; };
 		4976C7A7157491A400786536 /* ZKFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKFViewController.m; sourceTree = "<group>"; };
 		4976C7AA157491A400786536 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ZKFViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
