@@ -14,10 +14,70 @@
 
 @implementation ZKFViewController
 
+@synthesize result;
+
+
+-(IBAction)clickNumberBtn:(id)sender
+{
+    UIButton *btn = sender;
+    if(operator == nil)
+    {
+        firstNumber = [firstNumber stringByAppendingString:[btn currentTitle]];
+        result.text = firstNumber;    
+    }else{
+        secondNumber = [secondNumber stringByAppendingString:[btn currentTitle]];
+        result.text = secondNumber;    
+    }
+    
+    
+}
+
+-(IBAction)clickOperatorBtn:(id)sender{
+    UIButton *btn = sender;
+    operator = [btn currentTitle];
+    secondNumber = @"";
+    
+}
+
+-(IBAction)clickEqualBtn:(id)sender
+{
+    if([operator isEqualToString:@"+"])
+    {    
+        float number1 = [firstNumber floatValue];
+        float number2 = [secondNumber floatValue];
+        result.text = [NSString stringWithFormat:@"%f", number1 + number2 ];
+    }
+    
+    if([operator isEqualToString:@"-"])
+    {    
+        float number1 = [firstNumber floatValue];
+        float number2 = [secondNumber floatValue];
+        result.text = [NSString stringWithFormat:@"%f", number1 - number2 ];
+    }
+    
+    if([operator isEqualToString:@"*"])
+    {    
+        float number1 = [firstNumber floatValue];
+        float number2 = [secondNumber floatValue];
+        result.text = [NSString stringWithFormat:@"%f", number1 * number2 ];
+    }
+    
+    if([operator isEqualToString:@"/"])
+    {    
+        float number1 = [firstNumber floatValue];
+        float number2 = [secondNumber floatValue];
+        result.text = [NSString stringWithFormat:@"%f", number1 / number2 ];
+    }
+}
+
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
+    firstNumber = @"";
+    secondNumber = @"";
+    operator = nil;
 }
 
 - (void)viewDidUnload

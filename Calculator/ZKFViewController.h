@@ -9,27 +9,22 @@
 #import <UIKit/UIKit.h>
 
 @interface ZKFViewController : UIViewController
+{
+    UITextField *result;
+    NSString *firstNumber;
+    NSString *secondNumber;
+    NSString *operator;
+}
 
-@property(nonatomic, retain) UITextField *result;
+@property(nonatomic, retain) IBOutlet UITextField *result;
 
--(IBAction)clickBtn:(id)sender;
+-(IBAction)clickNumberBtn:(id)sender;
 
--(IBAction)click1;
--(IBAction)click2;
--(IBAction)click3;
--(IBAction)click4;
--(IBAction)click5;
--(IBAction)click6;
--(IBAction)click7;
--(IBAction)click8;
--(IBAction)click9;
--(IBAction)click0;
--(IBAction)clickAdd;
--(IBAction)clickSub;
--(IBAction)clickMultiply;
--(IBAction)clickDevide;
--(IBAction)clickEqual;
-
+-(IBAction)clickOperatorBtn:(id)sender;
+//
+//-(IBAction)clickPointBtn:(id)sender;
+//
+-(IBAction)clickEqualBtn:(id)sender;
 
 
 @end
